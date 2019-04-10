@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> bootstrap </title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+    <title>Self-growth</title>
+<body>
+    <div class="container">
+         <h1><p class="text-center">Self-growth <small>The online self-improvement community</small></p></h1>
+    <div id="image">    
+        </div>
+    </div>
+    
+   <button class="accordion">Success Skills</button>
+    <div class="panel">>
+        <ul>
+          <li>Abundance</li>
+          <li>Integrity</li>
+          <li>Manifestation</li>
+          <li>Listening Skills</li>
+          <li>Learning</li>
+          <li>Stress Management</li>
+          </ul>
+      </div>
+   <button class="accordion">Relationships</button>
+  <div class="panel">
+     <ul>
+          <li>Trust</li>
+          <li>Love</li>
+          <li>Parenting</li>
+          <li>Sexuality</li>
+         <li>Forgiveness</li>
+          </ul>
+      </div>
+    <button class="accordion"> Health</button>
+    <div class="panel">
+       <ul>
+         <li>Biofeedback</li>
+                <li>Neurofeedback</li>
+                <li>Immune System</li>
+                <li>Insomnia</li>
+                <li>Sound Therapy</li>
+                <li>Exercise</li>
+            </ul>
+      </div>
+   <button class="accordion">Finances</button>
+    <div class="panel">
+    <ul>
+        <li>Quickbooks</li>
+        <li>Career Coach</li>
+        <li>Entrepreneurs</li>
+        <li>Investing</li>
+        </ul>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+} 
+    </script>
+    <script></script>
+    
+    
+    </body>
+</html>

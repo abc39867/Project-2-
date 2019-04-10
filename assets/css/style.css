@@ -1,0 +1,25 @@
+#image{
+    background-image: url(../img/afterglow-backlit-bright-760680.jpg);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-attachment:fixed;
+    height:600px;
+    width:auto;
+    }
+.accordion {
+    background-color:#eee;
+    color:#444;
+    padding: 18px;
+    Width:100%;
+    text-align:center;
+    border:none;
+    outline:none;
+    transition: 0.4;
+}
+.panel {
+     background-image: linear-gradient(to top, rgba(0,0,100,0), rgba(0,0,100,.5));
+  Padding: 0 18px;
+    display:none;
+    overflow:hidden;
+}
+    
